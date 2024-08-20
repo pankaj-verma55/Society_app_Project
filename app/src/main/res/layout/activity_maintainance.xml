@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".MaintainanceActivity">
+
+    <EditText
+        android:id="@+id/maintainance"
+        android:layout_width="314dp"
+        android:layout_height="257dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="128dp"
+        android:alpha="0.7"
+        android:autofillHints="Entre Visitor Detial"
+        android:background="#CCC9C9"
+        android:gravity="center|top"
+        android:hint="@string/enter_visitor_name"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,TextFields" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="204dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/gradient"
+        android:shadowRadius="20"
+        android:text="@string/submit"
+
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/maintainance"
+        app:layout_constraintStart_toStartOf="@+id/maintainance"
+        app:layout_constraintTop_toBottomOf="@+id/maintainance"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

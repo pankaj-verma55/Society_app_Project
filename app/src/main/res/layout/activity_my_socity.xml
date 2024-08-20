@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".MySocity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/socity" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="340dp"
+        android:background="@drawable/gradient"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="10sp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/society_is_an_innovative_android_application_crafted_to_transform_the_way_communities_interact_manage_and_thrive_together_designed_with_both_functionality_and_ease_of_use_in_mind_society_addresses_the_unique_needs_of_residential_communities_housing_societies_and_neighborhood_groups_the_app_acts_as_a_centralized_hub_allowing_members_to_effortlessly_communicate_organize_events_share_important_updates_and_resolve_communal_issues_in_real_time_from_scheduling_meetings_and_managing_facilities_to_creating_discussion_forums_and_sending_emergency_alerts_society_offers_a_comprehensive_suite_of_features_that_promote_a_connected_and_cohesive_environment_its_intuitive_design_ensures_that_users_of_all_ages_can_navigate_the_platform_with_ease_while_robust_security_measures_protect_personal_information_and_ensure_privacy_society_goes_beyond_just_communication_it_fosters_a_sense_of_belonging_and_participation_encouraging_members_to_take_an_active_role_in_their_community_whether_it_s_coordinating_a_neighborhood_watch_planning_a_community_festival_or_simply_staying_informed_about_local_happenings_society_empowers_communities_to_work_together_more_effectively_and_live_in_harmony_with_society_every_member_has_a_voice_and_every_community_can_reach_its_full_potential"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:linksClickable="true"
+                android:padding="25dp"
+                android:paddingBottom="25dp"
+                android:text="@string/visit_over_socity_website"
+                android:textColor="#616060"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

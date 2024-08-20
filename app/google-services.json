@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "915520191096",
+    "project_id": "socity-app-pankaj",
+    "storage_bucket": "socity-app-pankaj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915520191096:android:ae928072bd27b7e28f8b8d",
+        "android_client_info": {
+          "package_name": "com.example.socityapppankaj"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPp2U81myoixK-GSl7x5xLIyrl-6eobjs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

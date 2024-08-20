@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/gradient"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".EventOrganisation">
+
+
+    <EditText
+        android:id="@+id/event_title_input"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="10sp"
+        android:autofillHints=""
+        android:background="@color/white"
+        android:hint="@string/event_title"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/event_date_input"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="10sp"
+        android:autofillHints=""
+        android:background="@color/whileprofile"
+        android:hint="@string/event_date"
+        android:inputType="text"
+        tools:ignore="TextFields" />
+
+    <EditText
+        android:id="@+id/event_description_input"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="10sp"
+        android:autofillHints=""
+        android:background="@color/white"
+        android:hint="@string/event_description"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/add_event_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/add_event" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/gradient" />
+
+
+</LinearLayout>

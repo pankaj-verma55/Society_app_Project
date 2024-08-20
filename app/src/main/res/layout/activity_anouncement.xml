@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="@color/skyblue"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".Anouncement">
+
+
+        <EditText
+            android:id="@+id/etNoticeContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="143dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="16dp"
+            android:autofillHints="enter data"
+            android:background="#E2E1E1"
+            android:hint="@string/enter_notice_content"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/btnGenerateNotification"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+
+            android:layout_below="@+id/etNoticeContent"
+            android:layout_alignStart="@+id/etNoticeContent"
+            android:layout_alignEnd="@+id/etNoticeContent"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="75dp"
+            android:layout_marginEnd="59dp"
+            android:background="@drawable/gradient"
+            android:padding="10dp"
+            android:text="@string/generate_notification" />
+
+
+</RelativeLayout>

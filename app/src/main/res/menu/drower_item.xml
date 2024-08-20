@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group1">
+    <item
+        android:id="@+id/socityArea"
+        android:title="@string/socity_area"
+        android:icon="@drawable/location"
+        />
+    <item
+        android:id="@+id/navHistory"
+        android:title="@string/history"
+        android:icon="@drawable/history"
+        />
+    </group>
+
+    <group
+        android:id="@+id/group2">
+    <item
+        android:id="@+id/payment"
+        android:title="@string/payment"
+        android:icon="@drawable/baseline_payment_24"
+        />
+    <item
+        android:id="@+id/emergencyCall"
+        android:title="@string/emergency_call"
+        android:icon="@drawable/baseline_call_24"
+        />
+    </group>
+    <group
+        android:id="@+id/group3">
+
+    <item
+        android:id="@+id/navFeedback"
+        android:title="@string/feedback"
+        android:icon="@drawable/baseline_feedback_24"
+        />
+
+    <item
+        android:id="@+id/termcondition"
+        android:title="@string/term_and_condition"
+        android:icon="@drawable/term"
+        />
+    <item
+        android:id="@+id/contactus"
+        android:title="@string/contact_us"
+        android:icon="@drawable/baseline_contact_support_24"
+        />
+    <item
+        android:id="@+id/navShare"
+        android:title="@string/share"
+        android:icon="@drawable/baseline_emergency_share_24"
+        />
+    </group>
+    <group
+        android:id="@+id/group4">
+    <item
+        android:id="@+id/navAbout"
+        android:title="@string/about"
+        android:icon="@drawable/about"
+        />
+    </group>
+</menu>
